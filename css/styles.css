@@ -1,7 +1,7 @@
 h1 {color: blue; }
 body {
     text-align: center;
-    background-color: lightgray;
+    background-color: silver;
 }
 .container {
     display: grid;
@@ -17,16 +17,12 @@ body {
     cursor: pointer;
     background: lightgreen;
     font-size: 80px;
-    
-
+    color: blue;
+ 
 }
 .newGame {
     color: white;
     background-color: red;
     font-size: 20px;
-    border-radius: 12px;
-}
-#submit {
-    background-color: lightgreen;
     border-radius: 12px;
 }

@@ -8,33 +8,25 @@
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
-    <div class="container">
-        <div cell="1" class="cell"></div>
-        <div cell="2" class="cell"></div>
-        <div cell="3" class="cell"></div>
-        <div cell="4" class="cell"></div>
-        <div cell="5" class="cell"></div>
-        <div cell="6" class="cell"></div>
-        <div cell="7" class="cell"></div>
-        <div cell="8" class="cell"></div>
-        <div cell="8" class="cell"></div>
-    </div>
+    
     <h2 class="gameStatus"></class></h2>
-    <p></p>
+    
+    <div class="container">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+    </div>
+    
     <button class="newGame">New Game!</button>
-    <p></p>
-
-  <form>
-      <input type="text" placeholder="Player X Name" id="playerXNameInfo">
-      <input type="text" placeholder="Player O Name" id="playerONameInfo">
-      <input type="submit" value="Submit" id="submit">
-  </form>
-
-
-
-
+    
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="./js/main.js"></script>
 </body>
 </html>
+
